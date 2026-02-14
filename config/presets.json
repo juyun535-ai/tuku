@@ -1,0 +1,67 @@
+{
+  "anime": {
+    "name": "精致动漫",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 6,
+    "noise": "native",
+    "smea": true,
+    "variety": false,
+    "suffix": "{{{masterpiece}}}, {best quality}, amazing quality, very aesthetic, anime style, detailed",
+    "neg": "lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, blurry, poorly drawn, bad face, distorted face"
+  },
+  "glossy": {
+    "name": "清透润泽",
+    "sampler": "k_dpmpp_2m",
+    "steps": 28,
+    "scale": 6,
+    "noise": "native",
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:luohuarumeng}, {artist:ciloranko}, clean style, soft lighting, {glossy skin}, {wet skin}, smooth skin, delicate features, {detailed eyes}, refined details, beautiful lighting, elegant",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, dry skin, rough skin, matte skin, dirty, messy, gritty, dark theme"
+  },
+  "game": {
+    "name": "游戏立绘",
+    "sampler": "k_dpmpp_2m",
+    "steps": 28,
+    "scale": 7,
+    "noise": "native",
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:lack}, {artist:rella}, {artist:neco}, official art, game cg, vibrant colors, high contrast, sharp lines, clean lineart, intricate details, dynamic, glossy",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, dull colors, muted colors, soft lines, sketchy, watercolor, painterly, messy background"
+  },
+  "tension": {
+    "name": "肢体张力",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 6.5,
+    "noise": "karras",
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:miazi}, detailed, high quality, {dynamic pose}, {glistening skin}, {sweat}, dramatic angle, expressive face, detailed anatomy, soft shading",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, stiff pose, static, flat lighting, dry skin, simple background"
+  },
+  "impasto": {
+    "name": "精致厚涂",
+    "sampler": "k_euler",
+    "steps": 28,
+    "scale": 7,
+    "noise": "karras",
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:ratatatat74}, detailed, high quality, {{{glistening skin}}}, {{sweat}}, {wet skin}, {oily skin}, {detailed skin}, [skin texture], {{dramatic lighting}}, {{high contrast}}, {volumetric light}, {rim lighting}, {warm lighting}, soft shading, {detailed background}",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, flat lighting, flat shading, cel shading, simple shading, dry skin, matte skin, soft lighting, overexposed, washed out, sketch, lineart, outline"
+  },
+  "c_1771035981430": {
+    "name": "暗黑",
+    "suffix": "{{{{shiny_skin,oil_skin,pale_skin,curvy}}}} ,4::masterpiece, best quality ::, \n2::official art, year2024, year2025, webtoon ::,\n1.75 ::, au (d elete)::, 1.75:: artist:wlop ::, 1.25::guweiz::, 1.75::nixeu::,\n-2::artist collaboration::, detailed background,dynamic pose,dim light,thick paiting, hyper-realistic, realistic texture, real skin, modern, celebrity,after sex, clothed after sex, clothed sex, after ejaculation, whole body, straight-on, hair half undone, heart-shaped pupils, beautiful detailed eyes, pant suit, ",
+    "neg": "3::3D ::,\n1.5::multiple views::,\n1.6::worst quality::, \n1.6::low quality::, \n1.6::normal quality::, \n1.6::CGI render::, \n1.6::malformed hands::, \n1.6::fused fingers::, \n1.6::extra joints::, \n1.6::Blush line::,\n1.5::poor topology::, \n1.5::non-manifold geometry::, \n1.5::mesh distortion::, \n1.5::rigging error::,\n1.5::ray tracing artifact::, \n1.5::denoising failure::, \n1.5::subsurface scattering error::, \n1.5::specular aliasing::, \n1.5::z-fighting::, \n1.5::UV stretching::,\n1.6::cartoon::, \n1.6::Disney style::, \n1.6::Pixar style::, \n1.6::cel-shaded::, \n1.6::vector art::,\n1.5::plastic skin::, \n1.5::wax figure::, \n1.5::clay render::, \n1.5::oversaturated::, \n1.5::overexposed::, \n1.5::specular overflow::, \n1.5::PBR error::,\n3.5::watermark::, \n3.6::signature::, \n1.6::text::, \n1.6::username::, \n1.6::frame border::,\n1.5::motion blur::, \n1.5::chromatic aberration::, \n1.5::lens flare artifact::, \n1.5::vignetting::,\n1.5::facial asymmetry::, \n1.5::iris deformation::, \n1.5::disproportional philtrum::, \n1.5::elf ear::, \n1.5::doll joint::",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 6,
+    "smea": false,
+    "variety": false
+  }
+}
